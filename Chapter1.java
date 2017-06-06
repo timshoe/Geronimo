@@ -30,6 +30,11 @@ public class Chapter1 {
 						+"\nYou die instantly.");
 				Launcher.playAgain();
 			}
+			else if(result.equals("b")){
+				System.out.println("You feel lucky as you open the door, almost as if you avoided imminent death by choosing the other one.\n"
+						+ "You are run into a wall with a huge inscription. "
+						+ "It says \"There was once a man named geronimo. He died and turned into a evil ghost. He haunts this castle.\"");
+			}
 		}
 	}
 }
