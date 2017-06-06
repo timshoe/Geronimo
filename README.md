@@ -1,2 +1,2 @@
 # Geronimo
-Java text-based horror game
+Java text-based horror game I made in the Summer of 2017 to practice object oriented programming concepts such as static methods, inheritance, polymorphism, etc. After making so many java projects in the classroom I thought it would be fun and helpful to do something on my own. It is much more different to code outside the classroom as you are free from a rubric or project guideline. Enjoy the game
