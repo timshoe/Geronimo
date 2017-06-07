@@ -17,7 +17,19 @@ public class Chapter1 {
 			}
 			else if (result.equals("b")){
 				System.out.println("You slowly back away and bump into something in the wall. It's a huge inscription.\n"
-						+ " It says \"There was once a man named geronimo. He died and turned into a evil ghost. He haunts this castle.\"");
+						+ "It says \"There was once a man named geronimo. He died and turned into a evil ghost. He haunts this castle.\"");
+				System.out.println("Do you:\n1) Look for Geronimo 2) Search for an exit");
+				result = Launcher.read();
+				if (result.equals("a")){
+					System.out.println("You shout \"GERONIMO! I KNOW YOU'RE HERE!\"");
+					System.out.println("\"Muahaha. I guess there's no point in beating around the bush huh. I guess there's no point in toying"
+							+ " around with you anymore. Time to end it.\"\nIt starts to smell strongly of farts. You DIE INSTANTLY.");
+					Launcher.playAgain();
+				}
+				else if (result.equals("b")){
+					System.out.println("You search for an exit. And you find one. \nWow! That wasn't hard!\nEnd of Chapter 1.");
+					Chapter2 chapter2 = new Chapter2();
+				}
 			}
 		}
 		else if (result.equals("b")){
@@ -32,8 +44,20 @@ public class Chapter1 {
 			}
 			else if(result.equals("b")){
 				System.out.println("You feel lucky as you open the door, almost as if you avoided imminent death by choosing the other one.\n"
-						+ "You are run into a wall with a huge inscription. "
-						+ "It says \"There was once a man named geronimo. He died and turned into a evil ghost. He haunts this castle.\"");
+						+ "You are run into a wall with a huge inscription."
+						+ " It says \"There was once a man named Geronimo. He died and turned into a evil ghost. He haunts this castle.\"");
+				System.out.println("Do you:\n1) Look for Geronimo 2) Search for an exit");
+				result = Launcher.read();
+				if (result.equals("a")){
+					System.out.println("You shout \"GERONIMO! I KNOW YOU'RE HERE!\"");
+					System.out.println("\"Muahaha. I guess there's no point in beating around the bush huh. I guess there's no point in toying"
+							+ " around with you anymore. Time to end it.\"\nIt starts to smell strongly of farts. You DIE INSTANTLY.");
+					Launcher.playAgain();
+				}
+				else if (result.equals("b")){
+					System.out.println("You search for an exit. And you find one. \nWow! That wasn't hard!\nEnd of Chapter 1.");
+					Chapter2 chapter2 = new Chapter2();
+				}
 			}
 		}
 	}
