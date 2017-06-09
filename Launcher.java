@@ -11,9 +11,9 @@ public class Launcher {
 		System.out.println("_________________________________________________________");
 		System.out.println("G\tE\tR\tO\tN\tI\tM\tO");
 		System.out.println("_________________________________________________________\n");
-		System.out.println("Enter the number of the chapter you are currently on."
-				+ "\nIf you have died, you can continue where you have left off..\n"
-				+ "\nChapter 1\tChapter 2\tChapter 3");
+		System.out.println("Enter the number of the chapter you are currently on:"
+				+ "\n\nChapter 1\tChapter 2\tChapter 3\n"
+				+ "\nIf you have died, you can continue where you have left off..");
 		Scanner scan = new Scanner(System.in);
 		while (true){
 			String result = scan.nextLine();
