@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/**
+ * @author timxu
+ * This class contains the storyboard for Chapter 1.
+ */
 public class Chapter1 {
 	public Chapter1(){
 		System.out.println("\nChapter 1. The Haunted Castle.\nYou wake up. It's dark and musty. It looks like you are in the dungeon of some large castle."
