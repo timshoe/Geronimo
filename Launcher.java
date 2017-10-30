@@ -1,9 +1,7 @@
 import java.util.Scanner;
 /**
- * 
  * @author timxu
- * This contains the static methods that 
- *
+ * This contains the static methods that are the skeleton behind the whole program.
  */
 public class Launcher {
 	public static void launch(){
